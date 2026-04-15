@@ -14,8 +14,8 @@ Esta Prueba de Concepto (PoC) demuestra cómo un atacante puede posicionarse ent
 ### Paso 1: Configuración del Kernel
 Se habilitó el reenvío de paquetes IP para permitir que el tráfico de la víctima fluya a través del atacante sin interrumpir la conexión:
 
-bash
-**sudo sysctl -w net.ipv4.ip_forward=1**
+```bash```
+```sudo sysctl -w net.ipv4.ip_forward=1```
 
 Paso 2: Envenenamiento ARP (ARP Spoofing)
 Se ejecutó un ataque bidireccional para engañar las tablas ARP de la víctima y del Gateway:

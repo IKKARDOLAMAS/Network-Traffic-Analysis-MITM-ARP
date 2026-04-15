@@ -20,9 +20,9 @@ Se habilitó el reenvío de paquetes IP para permitir que el tráfico de la víc
 ### Paso 2: Envenenamiento ARP (ARP Spoofing)
 Se ejecutó un ataque bidireccional para engañar las tablas ARP de la víctima y del Gateway:
 
-Target 1: 192.168.1.1 (Router)
+Target 1: 1xx.xxx.x.1 (Router)
 
-Target 2: 192.168.1.7 (Víctima)
+Target 2: 1xx.xxx.x.7 (Víctima)
 
 ### Paso 3: Análisis de Resultados
 A pesar de la protección de los navegadores modernos contra la visualización de texto plano en ciertos flujos, se confirmó el éxito del ataque mediante las métricas de Forwarded Packets en Ettercap:
